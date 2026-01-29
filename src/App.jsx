@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import About from "./sections/About";
+import Gallery from "./sections/Gallery";
 import Hero from "./sections/Hero";
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
         {/* Sections */}
         <Hero />
         <About />
+        <Gallery />
       </main>
 
       {/* Footer */}
