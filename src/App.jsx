@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import About from "./sections/About";
 import Hero from "./sections/Hero";
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <main id="main-content" className="max-w-8xl mx-auto">
         {/* Sections */}
         <Hero />
+        <About />
       </main>
 
       {/* Footer */}
