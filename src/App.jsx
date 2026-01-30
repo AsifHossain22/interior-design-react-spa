@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import About from "./sections/About";
 import Gallery from "./sections/Gallery";
 import Hero from "./sections/Hero";
+import Work from "./sections/Work";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Hero />
         <About />
         <Gallery />
+        <Work />
       </main>
 
       {/* Footer */}
